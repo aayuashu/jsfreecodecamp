@@ -20,6 +20,11 @@ variable declared with let can be reassigned(change value of) <br>
 Note: When reassigning a variable, you do not use the let keyword again.  <br>
 eg: let programmer = "Naomi"; <br>
 programmer = "CamperChan"; <br>
+One variable value can be assigned to another variable <br>
+eg:let first = "One";<br>
+let second = "Two";<br>
+second = first; <br>
+
 <h2>7 Primitive Datatypes</h2>
 <ol>
   <li>String</li>
