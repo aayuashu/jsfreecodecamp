@@ -25,6 +25,19 @@ eg:let first = "One";<br>
 let second = "Two";<br>
 second = first; <br>
 
+<h2> Arrays</h2>
+<p>An array is a non-primitive data type that can hold a series of values. Non-primitive data types differ from primitive data types in that they can hold more complex data. Primitive data types like strings and numbers can only hold one value at a time.</p>
+Arays are denoted using square brackets []. <br>
+eg: let array = []; <br>
+Array holds values separated by commas. eg: let array= ["first", "second"]; <br>
+the order of values in array is important. <br>
+strings are case-sensitive. <br> 
+access the values inside an array using the index of the value. An index is a number representing the position of the value in the array, starting from 0 for the first value. <br>
+Arrays are mutable, meaning you can change the values at an index directly. <br>
+eg: let array = [1, 2, 3]; <br>
+array[1] = 25; <br>
+console.log(array); <br>
+.length can be used to find length of the array, to get the last element 
 <h2>7 Primitive Datatypes</h2>
 <ol>
   <li>String</li>
